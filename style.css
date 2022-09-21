@@ -1,0 +1,14 @@
+html, body, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; /* 100% is 16px, but we want the size to be 10px */
+}
+
+.parent{
+    font-size: 30px;
+}
+
+.child{
+    border: 1px solid   red;
+}
