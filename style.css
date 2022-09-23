@@ -4,33 +4,4 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%; /* 100% is 16px, but we want the size to be 10px */
 }
-
-.parent{
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.child{
-    border: 1px solid   red;
-}
-
-.child1{
- border: 3px    solid   green;
- height: 400px;
-}
-
-.child2{
- border: 3px    solid   yellow;
- height: 500px;
- flex-grow: 1;
-}
-
-.child3{
-     border: 3px    solid   blue ;
-     height: 550px;
-     flex-grow: 2
-      q;
-}
      
