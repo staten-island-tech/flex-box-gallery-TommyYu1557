@@ -4,4 +4,19 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%; /* 100% is 16px, but we want the size to be 10px */
 }
-     
+
+body {
+    background-color: black;
+}
+
+.parent{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    box-shadow: 10px 5px 5px white;
+}
+
+.child {
+    border: 1px solid   red;
+    width: 75%;
+}
