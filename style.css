@@ -10,7 +10,7 @@ body {
     margin-bottom: 5rem;
 }
 
-.parent{
+.rows{
     font-size: 3rem;
     width: 100%;
     color: white;
@@ -20,7 +20,7 @@ body {
     padding-right: 2rem;
 }
 
-.child {
+.image {
     border: .5rem solid rgb(230, 230, 230);
     border-radius: .7rem;
     margin-top: 3rem;
@@ -28,7 +28,7 @@ body {
     box-shadow: .8rem .8rem .4rem rgb(195, 195, 195);
 }
 
-.title {
+#title {
     font-size: 15.5rem;
     background-color: black;
     color: white;
