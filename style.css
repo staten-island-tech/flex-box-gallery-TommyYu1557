@@ -26,6 +26,7 @@ body {
     margin-top: 3rem;
     margin-bottom: 3rem;
     box-shadow: .8rem .8rem .4rem rgb(195, 195, 195);
+    transition: all 0.25s;
 }
 
 #title {
@@ -42,4 +43,10 @@ body {
     font-size: 2rem;
     color: white;
     text-align: center;
+}
+
+.rows:hover .image:not(:hover) 
+{
+    transform:scale(0.9);
+    opacity: 0.35;
 }
