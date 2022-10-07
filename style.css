@@ -25,7 +25,7 @@ body {
     border-radius: .7rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    box-shadow: .8rem .8rem .4rem rgb(195, 195, 195);
+    box-shadow: .7rem .7rem .38rem rgb(195, 195, 195);
     transition: all 0.25s;
 }
 
@@ -48,5 +48,44 @@ body {
 .rows:hover .image:not(:hover) 
 {
     transform:scale(0.9);
-    opacity: 0.35;
+    opacity: 0.35
+}
+
+.image-top:hover {
+    transform: scale(1.1);
+    outline: 1.1rem solid rgb(13, 156, 13);
+}
+
+.image-middle:hover {
+    transform: scale(1.1);
+    outline: 1.1rem solid rgb(126, 122, 122);
+}
+
+.image-bottom:hover {
+    transform: scale(1.1);
+    outline: 1.1rem solid rgb(90, 6, 90);
+}
+
+#image-1:hover {
+    transform: scale(1.15);
+    outline: .65rem solid rgb(227, 252, 0);
+    outline-offset: .5rem;
+    box-shadow: 0rem 0rem 0rem;
+    background-color: rgb(102, 102, 8);
+}
+
+#image-5:hover {
+    transform: scale(1.15);
+    outline: .65rem solid rgb(236, 212, 212);
+    outline-offset: .5rem;
+    box-shadow: 0rem 0rem 0rem;
+    background-color: rgb(65, 62, 62);
+}
+
+#image-9:hover {
+    transform: scale(1.15);
+    outline: .65rem solid rgb(218, 7, 7);
+    outline-offset: .5rem;
+    box-shadow: 0rem 0rem 0rem;
+    background-color: rgb(117, 6, 28);
 }
