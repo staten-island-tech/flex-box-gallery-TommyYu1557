@@ -66,27 +66,30 @@ body {
 }
 
 #image-1:hover {
-    transform: scale(1.15);
+    transform: scale(1.15) rotate(360deg);
     outline: .65rem solid rgb(227, 252, 0);
     outline-offset: .5rem;
     box-shadow: 0rem 0rem 0rem;
     background-color: rgb(102, 102, 8);
+    transition: all 0.6s ease-in-out 0s;
 }
 
 #image-5:hover {
-    transform: scale(1.15);
+    transform: scale(1.15) rotate(360deg);
     outline: .65rem solid rgb(236, 212, 212);
     outline-offset: .5rem;
     box-shadow: 0rem 0rem 0rem;
     background-color: rgb(65, 62, 62);
+    transition: all 0.6s ease-in-out 0s;
 }
 
 #image-9:hover {
-    transform: scale(1.15);
+    transform: scale(1.15) rotate(360deg);
     outline: .65rem solid rgb(218, 7, 7);
     outline-offset: .5rem;
     box-shadow: 0rem 0rem 0rem;
     background-color: rgb(117, 6, 28);
+    transition: all 0.6s ease-in-out 0s;
 }
 
 .animation {
@@ -94,7 +97,7 @@ body {
     width: 1.5rem;
     border-radius: 50%;
     margin: 0 auto;
-    animation: move 2s infinite;
+    animation: move 3.85s infinite;
     position: absolute;
 }
 
