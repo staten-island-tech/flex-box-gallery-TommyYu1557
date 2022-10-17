@@ -125,8 +125,14 @@ body {
     }
 }
 
-@media (orientation: portrait) {
+@media only screen and (min-width: 845px) and (max-width: 1194px) {
     #title {
-        color: red;
+        color: blueviolet;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    #title {
+        color: yellow;
     }
 }
