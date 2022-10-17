@@ -124,3 +124,9 @@ body {
         background-color: rgb(224, 16, 16);
     }
 }
+
+@media (orientation: portrait) {
+    #title {
+        color: red;
+    }
+}
