@@ -128,11 +128,13 @@ body {
 @media only screen and (min-width: 845px) and (max-width: 1194px) {
     #title {
         color: blueviolet;
+        font-size: 9rem;
     }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 844px) {
     #title {
         color: yellow;
+        font-size: 6rem;
     }
 }
