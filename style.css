@@ -107,20 +107,20 @@ body {
 
 @keyframes move {
     0% {
-        left: 80%;
-        right: 20%;
+        left: 80vw;
+        right: 20vw;
         background-color: rgb(201, 22, 22);
     }
 
     50% {
-        right: 80%;
-        left: 20%;
+        right: 80vw;
+        left: 20vw;
         background-color: rgba(24, 253, 16, 0.897);
     }
 
     100% {
-        left: 80%;
-        right: 20%;
+        left: 80vw;
+        right: 20vw;
         background-color: rgb(224, 16, 16);
     }
 }
